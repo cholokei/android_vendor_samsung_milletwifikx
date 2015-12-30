@@ -19,6 +19,7 @@
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     libHevcSwDecoder \
+    libtime_genoff \
     TimeService
 
 $(call inherit-product, vendor/samsung/milletwifikx/milletwifikx-vendor-blobs.mk)
